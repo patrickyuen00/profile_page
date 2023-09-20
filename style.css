@@ -1,0 +1,97 @@
+body {
+    background-color: #1e1e1e;
+    font-family: 'Kosugi Maru', sans-serif;
+    color: white;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top: 5vw;
+    padding-bottom: 10vw;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+h2 {
+    font-size: 2rem;
+    padding-top: 25px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+li {
+    font-size: 1.5rem;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+a {
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+p {
+    font-size: 1.5rem;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.logo {
+    width: 5vw;
+    padding-right: 30px;
+}
+
+.visual {
+    max-width: 50vw;
+    text-align: center;
+}
+
+.sns {
+    padding-top: 5px;
+}
+
+.sns-box {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    h1 {
+        font-size: 2rem;
+        text-align: center;
+        padding-bottom: 20px;
+        padding-top: 30px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        font-family: 'Noto Sans JP', sans-serif;
+    }
+
+    li {
+        font-size: 1.1rem;
+        font-family: 'Noto Sans JP', sans-serif;
+    }
+
+    a {
+        color: white;
+        font-size: 1.1rem;
+        font-family: 'Noto Sans JP', sans-serif;
+    }
+
+    p {
+        font-size: 1.1rem;
+        font-family: 'Noto Sans JP', sans-serif;
+    }
+
+    .logo {
+        width: 10vw;
+        padding-right: 15px;
+    }
+
+    .visual {
+        max-width: 75vw;
+    }
+}
